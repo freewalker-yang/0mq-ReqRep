@@ -88,8 +88,16 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\globalsetting.cpp" />
     <ClCompile Include="broker.cpp" />
     <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\development log.md" />
+    <None Include="..\test\test.md" />
+    <None Include="..\test\test_client10.bat" />
+    <None Include="..\test\test_client20.bat" />
+    <None Include="..\test\test_client20_server3.bat" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

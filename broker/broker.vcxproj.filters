@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{ec0e8c3b-c825-4de3-b9f8-64805c466170}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -32,5 +35,23 @@
     <ClCompile Include="broker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\globalsetting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\development log.md" />
+    <None Include="..\test\test.md">
+      <Filter>test</Filter>
+    </None>
+    <None Include="..\test\test_client10.bat">
+      <Filter>test</Filter>
+    </None>
+    <None Include="..\test\test_client20.bat">
+      <Filter>test</Filter>
+    </None>
+    <None Include="..\test\test_client20_server3.bat">
+      <Filter>test</Filter>
+    </None>
   </ItemGroup>
 </Project>
